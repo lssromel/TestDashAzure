@@ -24,7 +24,7 @@ app = dash_app.server
 
 dash_app.layout = html.Div(
     [
-        html.H1("Creación de un dashboard"),
+        html.H1("Contratos Tipo vs Valor, por Año y Municipio", style={'textAlign':'center'}),
         dcc.Graph(id="graph-with-slider"),
         dcc.Slider(
             id="year-slider",
